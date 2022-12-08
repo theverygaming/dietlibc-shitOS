@@ -1,0 +1,13 @@
+*.o
+bin-i386/diet
+bin-i386/diet-i
+bin-i386/dietlibc.a
+bin-i386/dnsd
+bin-i386/elftrunc
+bin-i386/libcompat.a
+bin-i386/libcrypt.a
+bin-i386/liblatin1.a
+bin-i386/libm.a
+bin-i386/libpthread.a
+bin-i386/librpc.a
+include/errno_definition.h

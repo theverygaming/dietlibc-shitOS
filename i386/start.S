@@ -49,7 +49,8 @@ _start:
 #ifdef WANT_DYNAMIC
 	call	_dyn_start
 #else
-	call	CALL_IN_STARTCODE
+	//call	CALL_IN_STARTCODE
+    call main
 #endif
 
 #ifdef PROFILING
